@@ -1,0 +1,85 @@
+---
+title: "ITMG 524 Project Test"
+author: "Chiranjibi Ghimire"
+date: "May 8, 2018"
+output: word_document
+---
+
+```{r}
+installed.packages("arules")
+library(arules)
+```
+
+
+Read the data
+
+```{r}
+mydataTest= read.transactions("/Users/chirnjibi/Desktop/AssociationAnalysisData.csv")
+```
+
+
+
+```{r}
+inspect(head(mydataTest,3))
+```
+
+Find out most frequent items
+
+```{r}
+frequentItems = eclat (mydataTest, parameter = list(supp = 0.1, maxlen = 10))
+inspect(frequentItems)
+itemFrequencyPlot(mydataTest, topN=5, type="absolute", main="Item Frequency")
+```
+
+
+Create association rules
+
+```{r}
+rules = apriori (mydataTest, parameter = list(supp = 0.01, conf = 0.05))
+```
+
+
+High confidence rule
+```{r}
+rules_conf = sort(rules, by="confidence", decreasing=TRUE)
+inspect(head(rules_conf))
+        
+```
+
+The rules with confidence of 1  (see above) imply that, whenever the LHS item was purchased, the RHS item was also purchased 100% of the time.
+
+
+
+
+
+10 rules with highest lift
+
+```{r}
+rules.sortedLift = head(sort(rules, by ="lift"), 20)
+inspect(head(rules.sortedLift))
+```
+
+A rule with a lift of 21 (see rules.sortedLife above) imply that, the items in LHS and RHS are 21 times more likely to be purchased together compared to the purchases when they are assumed to be unrelated.
+
+
+
+#Next we can remove redundancy and find the rules related to given items (products)
+
+To find out what customers had purchased before buying 'Wheat'. This will help you understand the patterns that led to the purchase of 'wheat'.
+
+
+```{r}
+rules <- apriori (data=mydataTest, parameter=list (supp=0.01,conf = 0.05), appearance = list (default="lhs",rhs="wheat"), control = list (verbose=F))
+rules_conf <- sort (rules, by="confidence", decreasing=TRUE)
+inspect(head(rules_conf))
+```
+
+
+
+To find out what products were purchased after/along with product 'wheat'. The is a case to find out the Customers who bought 'Wheat' also bought...
+
+```{r}
+rules <- apriori (data=mydataTest, parameter=list (supp=0.01,conf = 0.05,minlen=2), appearance = list(default="rhs",lhs="wheat"), control = list(verbose=F))
+rules_conf <- sort (rules, by="confidence", decreasing=TRUE)
+inspect(head(rules_conf))
+```

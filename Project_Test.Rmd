@@ -1,0 +1,373 @@
+---
+title: "Project_Test"
+author: "Sushil Tiwari Chiranjibi Ghimire"
+date: "April 30, 2018"
+output: word_document
+---
+
+
+
+## Project Test
+
+
+**Reading data**
+```{r}
+test_data <- read.csv("/Users/chirnjibi/Desktop/test_data_project.csv")
+
+```
+
+**Framing Data**
+```{r}
+head(test_data)
+```
+
+Since the data was prepared by ourselves, we don't have to scale the data. Our data are in range.
+
+#Data Visualization 
+
+
+```{r, fig.height=20, fig.width=20}
+install.packages("ggplot2", dependencies = TRUE, repos = "http://cran.uk.r-project.org/src/contrib/ggplot2_0.8.9.tar.gz")
+
+library("ggplot2")
+
+ggplot(test_data, aes(x = test_data$merchandise.category, y = test_data$amount))+ geom_bar(aes(fill = test_data$merchandise.category), stat = "identity" , color = "white", position = position_dodge(0.9)) + facet_wrap(~ test_data$storeName)
+
+```
+
+
+```{r}
+attach(test_data)
+```
+
+#Barplot by storename
+
+```{r, fig.height=20, fig.width=20}
+store_count <- table(storeName)
+barplot(store_count, xlab = amount)
+
+```
+
+#Barplot by Merchandise category
+```{r, fig.height=20, fig.width=20}
+merchandise_category_count <- table(merchandise.category)
+barplot(merchandise_category_count, xlab = amount)
+
+```
+
+
+
+
+Explain the data 
+- Explain what category and which store is money being spent on. 
+
+
+# Clustering 
+
+
+```{r}
+newdataProject <- test_data[,2:7]
+head(newdataProject)
+
+```
+
+
+Adding amount to the dataset 
+
+```{r}
+ newdataProject$amount <- test_data$amount
+head(newdataProject)
+```
+
+
+
+
+Taking numeric column in an object
+
+```{r}
+ testnumdata <- newdataProject[,6:7]
+ head(testnumdata)
+ 
+```
+
+Creating a cluster object
+
+```{r}
+numeric_cluster <- kmeans(testnumdata, center=5)
+
+```
+
+Size of each cluster
+
+```{r}
+numeric_cluster$size
+```
+
+
+Getting the data in a new object so that it can be modified
+```{r}
+testdata_one <- newdataProject
+```
+
+Adding a cluster_id column to the newly created data object.
+
+```{r}
+testdata_one$cluster_id <- numeric_cluster$cluster
+head(testdata_one)
+```
+
+#Checking which fell under what 
+
+Which merchandise category fell under which cluster
+```{r}
+ table(testdata_one$merchandise.category, testdata_one$cluster_id)
+```
+ 
+
+which store fell under which cluster
+```{r}
+table(testdata_one$storeName, testdata_one$cluster_id)
+``` 
+
+
+Which item fell in which cluster
+```{r}
+
+table(testdata_one$description, testdata_one$cluster_id)
+
+```
+
+Which amount fell in which cluster
+```{r}
+ table(testdata_one$amount, testdata_one$cluster_id)
+```
+
+#Need to change all the categorical columns value to a dummy variable 
+we can have something with numbers representing the categories 
+We can have multiple clusturing one with stores and other with the types of product. 
+
+
+
+
+
+Association analysis for a month or for a particular date reciept. 
+
+Data prepared using java 
+public static ArrayList<String> myDataList() throws Exception{
+		
+		ArrayList<String> mydataList = new ArrayList<String>();
+		Set<String> myRecieptList = new HashSet<String>();
+		File file = new File("C:\\Users\\t-Stiwari\\Desktop\\testdata.xlsx");
+		FileInputStream filestream = new FileInputStream(file);
+		//  FileInputStream fis = ConfigurationManager.loadFileInputStream("C:\\Users\\t-Stiwari\\Desktop\\testdata.xlsx");
+
+          XSSFWorkbook xssfWorkbook = new XSSFWorkbook(filestream);
+          XSSFSheet mySheet = xssfWorkbook.getSheetAt(0);
+          int startRowIndex = mySheet.getFirstRowNum();
+          int endRow = mySheet.getLastRowNum();
+          
+         
+		
+          String date=null;
+          String description = null;
+          try{
+        	  for(int m=startRowIndex ; m< endRow; m++){
+        		  XSSFRow row = mySheet.getRow(m);
+        		  myRecieptList.add(row.getCell(2).getStringCellValue());
+        		  System.out.println(row.getCell(2).getStringCellValue());
+        		  System.out.println(row.getCell(4).getStringCellValue());
+        	  }
+        	  
+        	  File csvfile = new File("C:\\Users\\t-Stiwari\\Desktop\\testdata.csv");
+              FileWriter fw = new FileWriter(csvfile);
+              BufferedWriter bw = new BufferedWriter(fw);
+              for(String s: myRecieptList){
+            	  for(int m=startRowIndex ; m< endRow; m++){
+            		  XSSFRow row = mySheet.getRow(m);
+            		
+            		 if(!csvfile.exists()){
+            			 csvfile.createNewFile();
+            		 }
+            		 
+            		 
+            		 if(s.equalsIgnoreCase(row.getCell(2).getStringCellValue())){
+            			 bw.write(row.getCell(4).getStringCellValue()+",");
+            		 }
+            		 
+            	  }
+            	  bw.newLine();
+              }
+              bw.flush();
+              bw.close();
+              
+             
+        	  
+          }catch(Exception e){
+        	  throw e;
+          }
+          
+		return null;
+	}
+
+
+
+
+#Association Analysis
+
+
+```{r}
+installed.packages("arules")
+library(arules)
+```
+
+
+Read the data
+
+```{r}
+mydataTest= read.transactions("/Users/chirnjibi/Desktop/AssociationAnalysisData.csv")
+```
+
+
+
+```{r}
+inspect(head(mydataTest,3))
+```
+
+Find out most frequent items
+
+```{r}
+frequentItems = eclat (mydataTest, parameter = list(supp = 0.1, maxlen = 10))
+inspect(frequentItems)
+itemFrequencyPlot(mydataTest, topN=5, type="absolute", main="Item Frequency")
+```
+
+
+Create association rules
+
+```{r}
+rules = apriori (mydataTest, parameter = list(supp = 0.01, conf = 0.05))
+```
+
+
+High confidence rule
+```{r}
+rules_conf = sort(rules, by="confidence", decreasing=TRUE)
+inspect(head(rules_conf))
+```
+
+The rules with confidence of 1  (see above) imply that, whenever the LHS item was purchased, the RHS item was also purchased 100% of the time.
+
+
+
+
+10 rules with highest lift
+
+```{r}
+rules.sortedLift = head(sort(rules, by ="lift"), 10)
+inspect(head(rules.sortedLift))
+```
+
+A rule with a lift of 21 (see rules.sortedLife above) imply that, the items in LHS and RHS are 21 times more likely to be purchased together compared to the purchases when they are assumed to be unrelated.
+
+
+
+#Next we can remove redundancy and find the rules related to given items (products)
+
+To find out what customers had purchased before buying 'Wheat'. This will help you understand the patterns that led to the purchase of 'wheat'.
+
+
+```{r}
+rules <- apriori (data=mydataTest, parameter=list (supp=0.01,conf = 0.05), appearance = list (default="lhs",rhs="wheat"), control = list (verbose=F))
+rules_sortedconf <- sort (rules, by="confidence", decreasing=TRUE)
+inspect(head(rules_sortedconf))
+```
+
+
+
+To find out what products were purchased after/along with product 'wheat'. The is a case to find out the Customers who bought 'Wheat' also bought...
+
+```{r}
+rules <- apriori (data=mydataTest, parameter=list (supp=0.01,conf = 0.1,minlen=2), appearance = list(default="rhs",lhs="wheat"), control = list(verbose=F))
+rules_conf <- sort (rules, by="confidence", decreasing=TRUE)
+inspect(head(rules_conf))
+```
+
+
+
+
+
+
+
+
+
+# Neural Network 
+
+```{r}
+library("nnet")
+library("caret")
+```
+
+
+Splitting data to have less weight, will all the column R throws weight error
+```{r}
+data_ <- test_data
+split_data <- data_[,4:10]
+head(split_data)
+```
+
+ 
+Preparing data for training and testing set
+ 
+```{r}
+set.seed(50005)
+test_nnet_sample <- createDataPartition(split_data$classification, p=.70, list = FALSE)
+project_traindata <- split_data[test_nnet_sample,]
+project_test_data<- split_data
+
+project_test_data<- split_data[-test_nnet_sample,]
+
+```
+
+
+Running neural Network 
+```{r}
+neuralnet_p <- nnet(classification ~ ., data = project_traindata, size = 6)
+```
+
+
+Analyzing the model
+```{r}
+summary(neuralnet_p)
+```
+
+Now adding column to each training and test data to see if the model is fit
+
+```{r}
+
+project_traindata$predict <- predict(neuralnet_p, project_traindata, type = "class")
+project_test_data$predict <- predict(neuralnet_p, project_test_data, type = "class")
+
+```
+
+
+Checking the model to see how close we are 
+
+```{r}
+testsample <- table(split_data$classification[-test_nnet_sample], project_test_data$predict)
+testsample
+```
+
+As we can see, out of 59 Needs 55 were predicted correctly and
+Out of 21 want 20 were predicted correctly
+
+
+**Creating a dummy data to see what our model predicts it to be 
+
+```{r}
+dummydata <- data.frame("Columbia store", "Red onions","Produce",2,"null",2.00,NA)
+names(dummydata) <- c("storeName", "description","merchandise.category","quantity","lbs","amount","classification")
+classification <- predict(neuralnet_p, dummydata , type = "class")
+classification
+```
+
+

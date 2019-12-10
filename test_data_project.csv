@@ -1,0 +1,268 @@
+item,Month,Date,storeName,description,merchandise category,quantity,lbs,amount,classification
+1,March,3/30/2018,Columbia store,Red onions,Produce,1,2,1.99,Need
+2,March,3/30/2018,Columbia store,Tomato,Produce,1,3.07,4.57,Need
+3,March,3/30/2018,Columbia store,Red Potato,Produce,1,2.06,2.04,Need
+4,March,3/30/2018,Columbia store,Green chili,Produce,1,0.23,2.49,Need
+5,March,3/30/2018,Columbia store,Garlic,Produce,1,null,0.85,Need
+6,March,3/30/2018,Columbia store,Spinich,Produce,1,null,2.49,Need
+7,March,3/22/2018,Weis,Sandwich cooki,Snacks and deserts,2,null,4,Want
+8,March,3/22/2018,Weis,Peanut butter,grocery,1,null,3.51,Need
+9,March,3/22/2018,Weis,potato sandwic,Snacks and deserts,1,null,3.69,Want
+10,March,3/22/2018,Weis,potato roll,grocery,1,null,1.69,Want
+11,March,3/22/2018,Weis,wheat bread,grocery,2,null,4,Need
+12,March,3/22/2018,Weis,Red Potato,Produce,1,3.72,4.99,Need
+13,March,3/22/2018,Weis,Tomato,Produce,1,2.85,11.12,Need
+14,March,3/22/2018,Weis,Mushrooms,Produce,1,null,5.67,Need
+15,March,3/22/2018,Weis,Avocado,Produce,5,null,9.95,Need
+16,March,3/17/2018,Lotte,wheat bread,grocery,1,null,3.69,Need
+17,March,3/17/2018,Lotte,Puffed Rice,grocery,1,null,1.49,Want
+18,March,3/17/2018,Lotte,Dumpling Wrapper,grocery,1,null,1.49,Want
+19,March,3/17/2018,Lotte,Dumpling Wrapper,grocery,1,null,1.49,Want
+20,March,3/17/2018,Lotte,Salt,grocery,1,null,0.79,Need
+21,March,3/17/2018,Lotte,Butter,grocery,1,null,3.49,Need
+22,March,3/17/2018,Lotte,pickle,grocery,1,null,2.99,Need
+23,March,3/17/2018,Lotte,Papaya,Fruits,1,null,2.93,Need
+24,March,3/17/2018,Lotte,Lemon Juice,grocery,1,null,1.59,Want
+25,March,3/17/2018,Lotte,Red Potato,Produce,1,5,2.99,Need
+26,March,3/17/2018,Lotte,Masala noodles,Snacks and deserts,1,null,2.99,Want
+27,March,3/17/2018,Lotte,Ginger,Produce,1,0.56,0.79,Need
+28,March,3/17/2018,Lotte,Nice Biscuits,Snacks and deserts,1,null,2.99,Want
+29,March,3/17/2018,Lotte,Nice Biscuits,Snacks and deserts,1,null,2.99,Want
+30,March,3/17/2018,Lotte,Kaju katli,Snacks and deserts,1,null,4.99,Want
+31,March,3/17/2018,Lotte,Cilantro,Produce,2,null,0.79,Need
+32,March,3/17/2018,Lotte,Red onions,Produce,1,10,5.49,Need
+33,March,3/17/2018,Lotte,Green Cabbage,Produce,1,null,2.24,Need
+34,March,3/17/2018,Lotte,Cumin powder,grocery,1,null,3.99,Need
+35,March,3/17/2018,Lotte,Gulab jamun,Snacks and deserts,1,null,3.99,Want
+36,March,3/17/2018,Lotte,Banana,Fruits,1,null,1.26,Need
+37,March,3/17/2018,Lotte,Tomato,Produce,1,4.12,6.14,Need
+38,March,3/17/2018,Lotte,Cucumber,Produce,1,null,1.49,Need
+39,March,3/17/2018,Lotte,Green chilli,Produce,1,null,0.66,Need
+40,March,3/17/2018,Lotte,Sugar,grocery,1,4,2.99,Need
+41,March,3/17/2018,Lotte,Bamboo shoot,Produce,1,5.99,11.92,Want
+42,March,3/17/2018,Lotte,Mushrooms,Produce,1,null,1.99,Need
+43,March,3/17/2018,Lotte,Milk,Beverage,1,null,3.99,Need
+44,March,3/28/2018,Columbia store,Lentle,grocery,1,4,5.99,Need
+45,March,3/28/2018,Columbia store,Beans,grocery,1,2,3.49,Need
+46,March,3/28/2018,Columbia store,Tumeric powder,grocery,1,0.2,2.99,Need
+47,March,3/28/2018,Columbia store,Masala noodles,Snacks and deserts,1,null,3.99,Want
+48,March,3/25/2018,Columbia store,Tomato,Produce,1,4.61,6.87,Need
+49,March,3/25/2018,Columbia store,Milk,Beverage,1,null,2.99,Need
+50,March,3/25/2018,Columbia store,Red Potato,Produce,1,2.02,2,Need
+51,March,3/25/2018,Columbia store,Spinich,Produce,2,null,4.98,Need
+52,March,3/25/2018,Columbia store,Okra,Produce,1,0.83,2.07,Need
+53,March,3/25/2018,Columbia store,lettuce,Produce,1,null,1.99,Need
+54,March,3/25/2018,Columbia store,cauliflower,Produce,1,null,3.99,Need
+55,March,3/25/2018,Columbia store,loki,Produce,1,2.6,3.87,Need
+56,March,3/2/2018,Costco,Bath Tissue,Merchandise,1,null,15.99,Need
+57,March,3/2/2018,Costco,Paper Towels,Merchandise,1,null,15.79,Need
+58,March,3/2/2018,Costco,Ham Rolls,Snacks and deserts,1,null,2.59,Want
+59,March,3/2/2018,Costco,Peas,Produce,1,null,6.99,Need
+60,March,3/2/2018,Costco,Tomato,Produce,1,null,6.49,Need
+62,March,3/2/2018,Costco,Cracker,Snacks and deserts,1,null,8.59,Want
+63,March,3/2/2018,Costco,Limes,Produce,1,null,7.49,Need
+64,March,3/2/2018,Costco,Broccoli,Produce,1,null,4.99,Need
+65,March,3/2/2018,Costco,Mushrooms,Produce,1,null,3.99,Need
+66,March,3/2/2018,Costco,Orange,Fruits,1,null,5.99,Need
+67,March,3/2/2018,Costco,Corns,Produce,1,null,5.49,Need
+68,March,3/2/2018,Costco,Tomato,Produce,1,null,6.49,Need
+69,March,3/2/2018,Costco,Mixed Veggies,Produce,1,null,6.99,Need
+70,March,3/2/2018,Costco,Banana,Fruits,1,null,1.79,Need
+71,March,3/2/2018,Costco,Milk,Beverage,1,null,2.44,Need
+72,March,3/2/2018,Costco,Bean burger,Snacks and deserts,2,null,29.58,Want
+73,March,3/28/2018,Weis,Sandwich cookie,Snacks and deserts,2,null,4,Want
+74,March,3/28/2018,Weis,Banana,Fruits,2,4.59,2.74,Need
+75,March,3/28/2018,Weis,Avocado,Produce,8,null,3.69,Need
+76,March,3/28/2018,Weis,Green chilli,Produce,1,null,2.5,Need
+77,March,3/28/2018,Weis,cauliflower,Produce,1,null,2.99,Need
+78,March,3/28/2018,Weis,Eggs,Dairy,1,null,4.29,Need
+79,March,3/28/2018,Weis,Milk,Dairy,1,null,3.49,Need
+80,February,2/12/2018,Weis,Mushrooms,Produce,3,null,12.01,Need
+81,February,2/12/2018,Weis,Red onions,Produce,1,2.29,4.56,Need
+82,February,2/12/2018,Weis,Tomato,Produce,1,2.77,6.9,Need
+83,February,2/12/2018,Weis,Jalapeno,Produce,1,0.16,0.16,Need
+84,February,2/12/2018,Weis,Red Potato,Produce,1,null,4.99,Need
+85,February,2/12/2018,Weis,Milk,Dairy,1,null,2.99,Need
+86,February,2/5/2018,Weis,Cereal,Snacks and deserts,1,null,3.69,Need
+87,February,2/5/2018,Weis,Cereal,Snacks and deserts,1,null,3.99,Need
+88,February,2/5/2018,Weis,Salsa,Snacks and deserts,1,null,2.49,Want
+89,February,2/5/2018,Weis,Salsa,Snacks and deserts,1,null,2.5,Want
+90,February,2/5/2018,Weis,Pasta,Snacks and deserts,1,null,1.77,Want
+91,February,2/5/2018,Weis,wheat bread,grocery,1,null,2.99,Need
+92,February,2/5/2018,Weis,Tomato,Produce,1,null,4.81,Need
+93,February,2/5/2018,Weis,Cilantro,Produce,5,null,6.45,Need
+94,February,2/5/2018,Weis,Green Peppers,Produce,2,null,2.5,Need
+95,February,2/5/2018,Weis,Broccoli,Produce,1,null,1.59,Need
+96,February,2/5/2018,Weis,Pomegranate,Produce,1,null,5.98,Need
+97,February,2/5/2018,Weis,Squash,Produce,1,null,2.79,Need
+98,February,2/5/2018,Weis,Banana,Fruits,1,null,1.17,Need
+99,February,2/5/2018,Weis,Avocado,Produce,5,null,5.99,Need
+100,February,2/5/2018,Weis,Limes,Produce,6,null,3.49,Need
+101,February,2/5/2018,Weis,Grapes,Produce,1,2.29,9.14,Need
+102,February,2/5/2018,Weis,Cucumber,Produce,4,null,3.75,Need
+103,February,2/5/2018,Weis,cauliflower,Produce,1,null,3.49,Need
+104,February,2/5/2018,Weis,Squash,Produce,2,2.87,6.47,Need
+105,February,2/5/2018,Weis,Soy Milk,Dairy,2,null,6.59,Need
+106,February,2/16/2018,Giant,Soy Milk,Dairy,2,null,7.15,Need
+107,February,2/22/2018,Whole Foods,Soy Milk,Dairy,2,null,5.49,Need
+108,February,2/22/2018,Whole Foods,Peanut butter,grocery,2,null,9.98,Need
+109,February,2/22/2018,Whole Foods,Flour,grocery,1,null,5.99,Want
+110,February,2/22/2018,Whole Foods,Vegan chicken,grocery,1,null,3.99,Want
+111,February,2/22/2018,Whole Foods,Cereal,Snacks and deserts,1,null,3.99,Need
+112,February,2/22/2018,Whole Foods,Vegan Sausage,grocery,1,null,6.19,Want
+113,February,2/22/2018,Whole Foods,Garlic,Produce,2,null,5.98,Need
+114,February,2/22/2018,Whole Foods,Beet Root,Produce,1,1.33,2.65,Need
+115,February,2/22/2018,Whole Foods,wheat bread,grocery,1,null,3.89,Need
+116,February,2/22/2018,Whole Foods,Grapes,Produce,1,null,4.96,Need
+117,February,2/22/2018,Whole Foods,Banana,Fruits,1,null,1.31,Need
+118,February,2/2/2018,Lotte,Waffle,Snacks and deserts,1,null,2.99,Want
+119,February,2/2/2018,Lotte,Pani poori,Snacks and deserts,2,null,5,Want
+120,February,2/2/2018,Lotte,Red onions,Produce,1,null,5.99,Need
+121,February,2/2/2018,Lotte,Cookies,Snacks and deserts,1,null,1.99,Want
+122,February,2/2/2018,Lotte,Cardamom,grocery,1,null,6.99,Want
+123,February,2/2/2018,Lotte,Roasted Chana,Snacks and deserts,1,null,2.79,Want
+124,February,2/2/2018,Lotte,Green Peas,Produce,1,null,6.99,Need
+125,February,2/2/2018,Lotte,Ginger,Produce,1,null,2.99,Need
+126,February,2/2/2018,Lotte,Milk,Dairy,1,null,3.99,Need
+127,February,2/2/2018,Lotte,Tofu,Dairy,1,null,1.39,Need
+128,February,2/2/2018,Lotte,Red Potato,Produce,1,5,3.49,Need
+129,February,2/2/2018,Lotte,Chocolate Milk,Dairy,3,null,5.37,Want
+130,February,2/2/2018,Lotte,Chilli Sauce,Snacks and deserts,1,null,2.99,Want
+131,February,2/2/2018,Lotte,Mushrooms,Produce,2,null,3.28,Need
+132,February,2/2/2018,Lotte,Okra,Produce,1,0.61,1.21,Need
+133,February,2/2/2018,Lotte,Limes,Produce,7,null,0.99,Need
+134,February,2/2/2018,Lotte,Banana,Fruits,1,null,1.34,Need
+135,February,2/2/2018,Lotte,pumpkin,Produce,1,null,1.9,Need
+136,February,2/2/2018,Lotte,Banana,Fruits,1,null,0.98,Need
+137,February,2/2/2018,Lotte,Cucumber,Produce,1,null,1.09,Need
+138,February,2/2/2018,Lotte,Egg Plant,Produce,1,null,0.84,Need
+139,February,2/2/2018,Lotte,Lentle,grocery,1,null,3.99,Need
+140,February,2/2/2018,Lotte,Paratha,Snacks and deserts,1,null,6.99,Want
+141,February,2/2/2018,Lotte,Jalapeno,Produce,1,null,0.66,Need
+142,February,2/2/2018,Lotte,Juice,Snacks and deserts,1,null,2.99,Want
+143,February,2/2/2018,Lotte,Papaya,Fruits,1,null,1.8,Need
+144,February,2/2/2018,Lotte,Cilantro,Produce,1,null,0.4,Need
+145,February,2/2/2018,Lotte,Dumpling Wrapper,Snacks and deserts,1,null,2.29,Want
+146,February,2/2/2018,Lotte,cauliflower,Produce,1,null,2.99,Need
+147,February,2/2/2018,Lotte,Masala noodles,Snacks and deserts,1,null,12.99,Want
+148,February,2/2/2018,Lotte,Juice,Snacks and deserts,2,null,2.78,Want
+149,February,2/2/2018,Lotte,Cracker,Snacks and deserts,1,null,1.09,Want
+150,February,2/17/2018,Weis,Juice,Snacks and deserts,1,null,1.49,Want
+151,February,2/17/2018,Weis,Tea,Snacks and deserts,1,null,3.49,Need
+152,February,2/17/2018,Weis,Salsa,Snacks and deserts,1,null,2.99,Want
+153,February,2/17/2018,Weis,wheat bread,grocery,1,null,2.99,Need
+154,February,2/17/2018,Weis,Cracker,Snacks and deserts,1,null,0.49,Want
+155,February,2/17/2018,Weis,Corns,Produce,1,null,3.99,Need
+156,February,2/17/2018,Weis,Tomato,Produce,1,2.86,5.67,Need
+157,February,2/17/2018,Weis,Cilantro,Produce,1,null,1.29,Need
+158,February,2/17/2018,Weis,Red onions,Produce,1,null,2.99,Need
+159,February,2/17/2018,Weis,Avocado,Produce,5,null,7.96,Need
+160,February,2/17/2018,Weis,Ginger,Produce,1,null,0.64,Need
+161,February,2/17/2018,Weis,Broccoli,Produce,1,null,2.17,Need
+162,February,2/17/2018,Weis,Cabbage,Produce,1,null,1.48,Need
+163,February,2/17/2018,Weis,Limes,Produce,4,null,3.09,Need
+164,February,2/4/2018,Weis,wheat bread,grocery,2,null,5,Need
+165,February,2/4/2018,Weis,Tomato,Produce,1,2.46,4.9,Need
+166,February,2/4/2018,Weis,Avocado,Produce,2,null,2,Need
+167,February,2/4/2018,Weis,Jalapeno,Produce,1,0.88,0.87,Need
+168,February,2/4/2018,Weis,Mushrooms,Produce,2,null,6.98,Need
+169,February,2/4/2018,Weis,Corns,Produce,2,null,3.49,Need
+170,February,2/12/2018,Costco,Bean burger,Snacks and deserts,1,null,14.79,Want
+171,February,2/12/2018,Costco,Salsa,Snacks and deserts,1,null,7.69,Want
+172,February,2/12/2018,Costco,Hummus,Snacks and deserts,1,null,5.79,Want
+173,February,2/12/2018,Costco,Cracker,Snacks and deserts,1,null,8.79,Want
+174,February,2/12/2018,Costco,Avocado,Produce,6,null,5.99,Need
+175,February,2/12/2018,Costco,Grapes,Produce,1,null,8.49,Need
+176,February,2/12/2018,Costco,Ham Rolls,Snacks and deserts,1,null,2.59,Want
+177,February,2/12/2018,Costco,Green Peas,Produce,1,null,6.99,Need
+178,February,2/12/2018,Costco,Mushrooms,Produce,1,null,3.99,Need
+179,January,1/5/2018,Weis,wheat bread,grocery,1,null,2.49,Need
+180,January,1/5/2018,Weis,Cilantro,Produce,1,null,1.29,Need
+181,January,1/5/2018,Weis,Banana,Fruits,1,null,1.77,Need
+182,January,1/5/2018,Weis,Limes,Produce,3,null,1.29,Need
+183,January,1/5/2018,Weis,Tomato,Produce,1,4.37,8.22,Need
+184,January,1/5/2018,Weis,Jalapeno,Produce,1,null,0.49,Need
+185,January,1/5/2018,Weis,Squash,Produce,1,null,6.18,Need
+186,January,1/5/2018,Weis,Avocado,Produce,5,null,4.4,Need
+187,January,1/5/2018,Weis,Tomato,Produce,1,null,5.64,Need
+188,January,1/5/2018,Weis,Red onions,Produce,1,null,2.5,Need
+189,January,1/5/2018,Weis,Milk,Dairy,1,null,3.49,Need
+190,January,1/5/2018,Weis,Juice,Snacks and deserts,1,null,2.79,Want
+191,January,1/9/2018,Weis,Pancake mix,Snacks and deserts,1,null,2.39,Want
+192,January,1/9/2018,Weis,Syrup,Snacks and deserts,1,null,2.99,Want
+193,January,1/9/2018,Weis,Banana,Fruits,1,null,1.64,Need
+194,January,1/9/2018,Weis,Limes,Produce,4,null,3.16,Need
+195,January,1/9/2018,Weis,Avocado,Produce,4,null,5,Need
+196,January,1/9/2018,Weis,Ginger,Produce,1,null,0.88,Need
+197,January,1/9/2018,Weis,Juice,Snacks and deserts,1,null,2.69,Want
+198,January,1/9/2018,Weis,Milk,Dairy,1,null,3.49,Need
+199,January,1/9/2018,Weis,Half and half,Dairy,1,null,3.49,Want
+200,January,1/8/2018,Columbia store,lettuce,Produce,1,null,1.99,Need
+201,January,1/8/2018,Columbia store,Okra,Produce,1,null,2.47,Need
+202,January,1/8/2018,Columbia store,Bitter melon,Produce,1,null,1.91,Need
+203,January,1/8/2018,Columbia store,cauliflower,Produce,1,null,2.99,Need
+204,January,1/8/2018,Columbia store,Lentle,grocery,1,null,5.99,Need
+205,January,1/8/2018,Columbia store,Masala noodles,Snacks and deserts,1,null,4.98,Want
+206,January,1/8/2018,Columbia store,Cilantro,Produce,1,null,0.85,Need
+207,January,1/8/2018,Columbia store,Egg Plant,Produce,1,null,2.31,Need
+208,January,1/8/2018,Columbia store,Red Potato,Produce,1,2.33,2.82,Need
+209,January,1/8/2018,Columbia store,Loki,Produce,1,1.89,5.21,Need
+210,January,1/8/2018,Columbia store,Tomato,Produce,1,2.69,5.21,Need
+211,January,1/8/2018,Columbia store,Sugar,grocery,1,4,3.49,Need
+212,January,1/18/2018,Whole Foods,Blue berries,Fruits,1,null,3.29,Need
+213,January,1/18/2018,Whole Foods,Soy Milk,Dairy,2,null,7.8,Need
+214,January,1/18/2018,Whole Foods,Jalapeno,Produce,1,0.45,2.99,Need
+215,January,1/18/2018,Whole Foods,Beet Root,Produce,1,1.49,2.91,Need
+216,January,1/18/2018,Whole Foods,Cabbage,Produce,1,2.1,3.55,Need
+217,January,1/18/2018,Whole Foods,Vegan beef,grocery,1,null,3.79,Want
+218,January,1/18/2018,Whole Foods,Vegan Sausage,grocery,1,null,6.19,Want
+219,January,1/18/2018,Whole Foods,Vegan burger,grocery,1,null,5.99,Want
+220,January,1/18/2018,Whole Foods,Yoghurt,Dairy,1,null,5.99,Want
+221,January,1/18/2018,Whole Foods,Banana,Fruits,1,null,1.72,Need
+222,January,1/23/2018,Lotte,Nice Biscuits,Snacks and deserts,2,null,3,Want
+223,January,1/23/2018,Lotte,Tea,grocery,1,null,7.99,Need
+224,January,1/23/2018,Lotte,coffee,grocery,1,null,5.49,Need
+225,January,1/23/2018,Lotte,Allo tikki roll,Snacks and deserts,1,null,1.99,Want
+226,January,1/23/2018,Lotte,Paneer,grocery,1,null,1.99,Need
+227,January,1/23/2018,Lotte,Puffed Rice,Snacks and deserts,1,null,1.49,Want
+228,January,1/23/2018,Lotte,Dumpling Wrapper,Snacks and deserts,3,null,6.87,Want
+229,January,1/23/2018,Lotte,Chilli Sauce,Snacks and deserts,1,null,2.99,Want
+230,January,1/23/2018,Lotte,Green Peas,Produce,1,null,6.99,Need
+231,January,1/23/2018,Lotte,Yoghurt,Dairy,1,null,3.49,Want
+232,January,1/23/2018,Lotte,Milk,Dairy,1,null,3.99,Need
+233,January,1/23/2018,Lotte,Tomato,Produce,1,null,4.81,Need
+234,January,1/23/2018,Lotte,Red onions,Produce,1,10,4.99,Need
+235,January,1/23/2018,Lotte,cauliflower,Produce,1,null,1.99,Need
+236,January,1/23/2018,Lotte,Masala noodles,Snacks and deserts,1,null,12.99,Want
+237,January,1/23/2018,Lotte,Mushrooms,Produce,2,null,2.58,Need
+238,January,1/23/2018,Lotte,pumpkin,Produce,1,null,1.82,Need
+239,January,1/23/2018,Lotte,Cilantro,Produce,1,null,0.79,Need
+240,January,1/23/2018,Lotte,Limes,Produce,10,null,1.99,Need
+241,January,1/23/2018,Lotte,Green Peppers,Produce,1,null,2.02,Need
+242,January,1/23/2018,Lotte,Chocolate Milk,Dairy,2,null,3.58,Want
+243,January,1/23/2018,Lotte,Cabbage,Produce,1,null,2,Need
+244,January,1/23/2018,Lotte,Egg Plant,Produce,1,null,1.39,Need
+245,January,1/23/2018,Lotte,Cucumber,Produce,1,null,2.58,Need
+246,January,1/23/2018,Lotte,Masala noodles,Snacks and deserts,2,null,5,Want
+247,January,1/23/2018,Lotte,Juice,Snacks and deserts,1,null,1.59,Want
+248,January,1/23/2018,Lotte,Eggs,Dairy,1,null,5.29,Need
+249,January,1/12/2018,Columbia store,Egg Plant,Produce,1,null,1.49,Need
+250,January,1/12/2018,Columbia store,Okra,Produce,1,null,1.99,Need
+251,January,1/12/2018,Columbia store,Juice,Snacks and deserts,1,null,1.99,Want
+252,January,1/12/2018,Columbia store,Red onions,Produce,1,null,3.49,Need
+253,January,1/12/2018,Columbia store,Tomato,Produce,1,null,3.42,Need
+254,January,1/12/2018,Columbia store,Red Potato,Produce,1,null,2.99,Need
+255,January,1/10/2018,Costco,Bath Tissue,Merchandise,1,null,21.99,Need
+256,January,1/10/2018,Costco,Tilapia,grocery,1,null,15.99,Want
+257,January,1/10/2018,Costco,Quinoa,grocery,1,null,28.99,Need
+258,January,1/10/2018,Costco,Rice,grocery,1,null,14.99,Need
+259,January,1/10/2018,Costco,Banana,Fruits,1,null,1.39,Need
+260,January,1/10/2018,Costco,Kimchi,Snacks and deserts,1,null,7.99,Want
+261,January,1/10/2018,Costco,Dish washer,Merchandise,1,null,7.99,Need
+262,January,1/10/2018,Costco,Paper Towels,Merchandise,1,null,21.99,Need
+263,January,1/14/2018,Weis,Juice,Snacks and deserts,1,null,1.49,Want
+264,January,1/14/2018,Weis,wheat bread,grocery,1,null,3.49,Need
+265,January,1/14/2018,Weis,Ginger,Produce,1,null,1.11,Need
+266,January,1/14/2018,Weis,Tomato,Produce,1,null,4.78,Need
+267,January,1/14/2018,Weis,Milk,Dairy,1,null,3.49,Need
+268,January,1/14/2018,Weis,Hot dog roll,Snacks and deserts,1,null,2.69,Want
