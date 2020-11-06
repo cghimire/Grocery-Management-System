@@ -26,18 +26,29 @@ This project is based on real spending data for three months. Using this data we
 
 ## 🎈 Data Understanding and Exploring <a name="data_understanding_and_exploring"></a>
 
-![alt text](https://github.com/cghimire/Bank-Marketing-Data-Mining/blob/master/Figures/Correlation "Correlation Plot")
+**Metadata**
 
+![alt text](https://github.com/cghimire/Grocery-Management-System/blob/master/Grocery%20img/grocery_1.png "metadata")
+
+
+![alt text](https://github.com/cghimire/Grocery-Management-System/blob/master/Grocery%20img/grocery_dataviz.png "Visualization")
 
 ## ⛏️ Data Preparation <a name = "data-preparation"></a>
 
 
+**Clustering**
 
 ## 🚀 Data Modeling <a name = "data-modeling"></a>
+**Association Analysis**
 
+![alt text](https://github.com/cghimire/Grocery-Management-System/blob/master/Grocery%20img/grocery_frequentItems.png "Most frequent Items")
+
+**Recommendation Rule**
+
+**Nural Network Model**
 
 ## Model Evaluation and Conclusion <a name = "model-evaluation-and-conclusion"></a>
 
 
 ## 🎉 Acknowledgements <a name = "acknowledgement"></a>
-I would like to thank some special peoples who helped me a lot on this project. 
+I would like to thank Sushil Tiwari for the contribution on this project. 
