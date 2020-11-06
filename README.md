@@ -45,7 +45,7 @@ This project is based on real spending data for three months. Using this data we
 
 **Recommendation Rule**
 
-**Nural Network Model**
+**Neural Network Model**
 
 ## Model Evaluation and Conclusion <a name = "model-evaluation-and-conclusion"></a>
 
