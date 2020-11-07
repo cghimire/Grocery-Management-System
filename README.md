@@ -56,7 +56,7 @@ I used K-means clustering to classify the data based on category, store name, it
 
 ### Neural Network Model
 
-**After splitting data set into training and testing set, I added column to each training and test data to see if the model is fit**.
+**After splitting data set into training and testing set, run the neural network to see if the model is fit**.
 
 ![alt text](https://github.com/cghimire/Grocery-Management-System/blob/master/Grocery%20img/neural%20net.png "neural net")
 
@@ -68,7 +68,10 @@ The neural net model is used to predict our spending and optimize our budget loa
 
 ![alt text](https://github.com/cghimire/Grocery-Management-System/blob/master/Grocery%20img/neural%20net_1.png "neural net_1")
 
-**As we can see when we purchase Red onions from Columbia Store it is classified as our Needs, meaning the Red onion is something we can’t avoid buying**.
+**The above output shows that when we purchase Red onions from Columbia Store it is classified as our Needs, meaning the Red onion is something we can’t avoid buying**.
+
+**Based on our research, Our grocery spending can be optimized. We can also see which items are tied together and check our neural net model to see if that particular item set falls under our needs or wants. We can avoid our wants and only focus on our needs**.
 
 ## 🎉 Acknowledgements <a name = "acknowledgement"></a>
+
 I would like to thank Sushil Tiwari for the contribution on this project. 
