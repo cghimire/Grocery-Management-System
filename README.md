@@ -26,36 +26,37 @@ This project is based on real spending data for three months. Using this data we
 
 ## 🎈 Data Understanding and Exploring <a name="data_understanding_and_exploring"></a>
 
-**Metadata**
-
 ![alt text](https://github.com/cghimire/Grocery-Management-System/blob/master/Grocery%20img/grocery_1.png "metadata")
 
+**This is a metadata of the data set**.
 
 ![alt text](https://github.com/cghimire/Grocery-Management-System/blob/master/Grocery%20img/grocery_dataviz.png "Visualization")
+
 **The above histogram represents the amount spent on different merchandise category across various stores.** 
+
 ## ⛏️ Data Preparation <a name = "data-preparation"></a>
 
-**Clustering**
+## Clustering
 
-I used K means clustering to classify the data based on category, store name, items, and amount.
+I used K-means clustering to classify the data based on category, store name, items, and amount.
 
 ## 🚀 Data Modeling <a name = "data-modeling"></a>
 
-**Association Analysis**
+## Association Analysis
 
 ![alt text](https://github.com/cghimire/Grocery-Management-System/blob/master/Grocery%20img/grocery_frequentItems.png "Most frequent Items")
 
-**Above histogram shows the miost frequent items in the data set**.
+**Above histogram shows the most frequent items in the data set**.
 
-**Recommendation Rule**
+## Recommendation Rule
 
 ![alt text](https://github.com/cghimire/Grocery-Management-System/blob/master/Grocery%20img/recom%20rule.png "recommendation rule")     
 
 **We created Association Rules: min support as 0.01, confidence as 0.05 and sorted with ‘high-confidence’ rule. The rules with confidence of 1  imply that, whenever the LHS item was purchased, the RHS item was also purchased 100% of the time**.
 
-**Neural Network Model**
+## Neural Network Model
 
-After splitting data set into training and testing set, I added column to each training and test data to see if the model is fit.
+**After splitting data set into training and testing set, I added column to each training and test data to see if the model is fit**.
 
 ![alt text](https://github.com/cghimire/Grocery-Management-System/blob/master/Grocery%20img/neural%20net.png "neural net")
 
@@ -65,7 +66,7 @@ After splitting data set into training and testing set, I added column to each t
 
 The neural net model is used to predict our spending and optimize our budget loading data for April month.
 
-![alt text](https://github.com/cghimire/Grocery-Management-System/blob/master/Grocery%20img/neural%20net_1.png "neural net_1"
+![alt text](https://github.com/cghimire/Grocery-Management-System/blob/master/Grocery%20img/neural%20net_1.png "neural net_1")
 
 **As we can see when we purchase Red onions from Columbia Store it is classified as our Needs, meaning the Red onion is something we can’t avoid buying**.
 
