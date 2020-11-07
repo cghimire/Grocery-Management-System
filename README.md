@@ -70,7 +70,7 @@ The neural net model is used to predict our spending and optimize our budget loa
 
 **The above output shows that when we purchase Red onions from Columbia Store it is classified as our Needs, meaning the Red onion is something we can’t avoid buying**.
 
-**Based on our research, Our grocery spending can be optimized. We can also see which items are tied together and check our neural net model to see if that particular item set falls under our needs or wants. We can avoid our wants and only focus on our needs**.
+Based on our research, Our grocery spending can be optimized. We can also see which items are tied together and check our neural net model to see if that particular item set falls under our needs or wants. We can avoid our wants and only focus on our needs.
 
 ## 🎉 Acknowledgements <a name = "acknowledgement"></a>
 
