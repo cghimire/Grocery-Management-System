@@ -36,25 +36,25 @@ This project is based on real spending data for three months. Using this data we
 
 ## ⛏️ Data Preparation <a name = "data-preparation"></a>
 
-## Clustering
+### Clustering
 
 I used K-means clustering to classify the data based on category, store name, items, and amount.
 
 ## 🚀 Data Modeling <a name = "data-modeling"></a>
 
-## Association Analysis
+### Association Analysis
 
 ![alt text](https://github.com/cghimire/Grocery-Management-System/blob/master/Grocery%20img/grocery_frequentItems.png "Most frequent Items")
 
 **Above histogram shows the most frequent items in the data set**.
 
-## Recommendation Rule
+### Recommendation Rule
 
 ![alt text](https://github.com/cghimire/Grocery-Management-System/blob/master/Grocery%20img/recom%20rule.png "recommendation rule")     
 
 **We created Association Rules: min support as 0.01, confidence as 0.05 and sorted with ‘high-confidence’ rule. The rules with confidence of 1  imply that, whenever the LHS item was purchased, the RHS item was also purchased 100% of the time**.
 
-## Neural Network Model
+### Neural Network Model
 
 **After splitting data set into training and testing set, I added column to each training and test data to see if the model is fit**.
 
