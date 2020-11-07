@@ -54,9 +54,9 @@ I used K-means clustering to classify the data based on category, store name, it
 
 **We created Association Rules: min support as 0.01, confidence as 0.05 and sorted with ‘high-confidence’ rule. The rules with confidence of 1  imply that, whenever the LHS item was purchased, the RHS item was also purchased 100% of the time**.
 
-### Neural Network Model
+### Neural Network
 
-**After splitting data set into training and testing set, run the neural network to see if the model is fit**.
+After splitting data set into training and testing set, run the neural network to see if the model is fit.
 
 ![alt text](https://github.com/cghimire/Grocery-Management-System/blob/master/Grocery%20img/neural%20net.png "neural net")
 
