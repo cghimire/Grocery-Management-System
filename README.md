@@ -18,7 +18,7 @@
 - [Acknowledgments](#acknowledgement)
 
 ## 🧐 About <a name = "about"></a>
-This project is based on real spending data for three months. Using this data we applied three techniques such as Cluster, Association, and neural network analysis. We were trying to solve following questions.
+This project is based on real spending data for three months. Using this data, we applied three techniques, such as Cluster, Association, and neural network analysis. We were trying to solve the following questions.
 
 * What are the categories and stores that we frequently purchase our daily stuffs?
 * How is our buying pattern and What are the items that we most likely buy together?
