@@ -64,7 +64,7 @@ After splitting data set into training and testing set, run the neural network t
 
 ## Model Evaluation and Conclusion <a name = "model-evaluation-and-conclusion"></a>
 
-The neural net model is used to predict our spending and optimize our budget loading data for April month.
+The neural net model is used to predict our spending behviour and optimize our budget by loading data for April month.
 
 ![alt text](https://github.com/cghimire/Grocery-Management-System/blob/master/Grocery%20img/neural%20net_1.png "neural net_1")
 
